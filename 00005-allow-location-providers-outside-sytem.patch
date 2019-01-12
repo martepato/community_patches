@@ -1,7 +1,8 @@
-diff --git a/services/core/java/com/android/server/ServiceWatcher.java b/services/core/java/com/android/server/ServiceWatcher.java
+diff --git a/frameworks/base/services/core/java/com/android/server/ServiceWatcher.java b/frameworks/base/services/core/java/com/android/server/ServiceWatcher.java
 index 383e25a..31ae918 100644
---- a/services/core/java/com/android/server/ServiceWatcher.java
-+++ b/services/core/java/com/android/server/ServiceWatcher.java
+
+--- a/frameworks/base/services/core/java/com/android/server/ServiceWatcher.java
++++ b/frameworks/base/services/core/java/com/android/server/ServiceWatcher.java
 @@ -92,8 +92,7 @@ public class ServiceWatcher implements ServiceConnection {
              String pkg = initialPackageNames.get(i);
              try {
