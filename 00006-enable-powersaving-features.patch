@@ -1,0 +1,20 @@
+--- a/frameworks/base/core/res/res/values/config.xml
++++ a/frameworks/base/core/res/res/values/config.xml
+@@ -188,7 +188,7 @@
+          dozing).  This should be enabled if you have such services and expect apps to
+          correctly use them when installed on your device.  Otherwise, keep this disabled
+          so that applications can still use their own mechanisms. -->
+-    <bool name="config_enableAutoPowerModes">false</bool>
++    <bool name="config_enableAutoPowerModes">true</bool>
+     <!-- The threshold angle for any motion detection in auto-power save modes.
+          In hundreths of a degree. -->
+     <integer name="config_autoPowerModeThresholdAngle">200</integer>
+@@ -580,7 +580,7 @@
+          Software implementation will be used if config_hardware_auto_brightness_available is not set -->
+     <bool name="config_automatic_brightness_available">false</bool>
+     <!-- Flag indicating whether we should enable smart battery. -->
+-    <bool name="config_smart_battery_available">false</bool>
++    <bool name="config_smart_battery_available">true</bool>
+     <!-- Fast brightness animation ramp rate in brightness units per second-->
+     <integer translatable="false" name="config_brightness_ramp_rate_fast">180</integer>
+     <!-- Slow brightness animation ramp rate in brightness units per second-->
