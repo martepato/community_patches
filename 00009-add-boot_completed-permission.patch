@@ -16,7 +16,7 @@
      /** Answer incoming phone calls */
      public static final String OPSTR_ANSWER_PHONE_CALLS
              = "android:answer_phone_calls";
-+       /** Required for start at boot **/
++    /** Required for start at boot **/
 +    private static final String OPSTR_BOOT_COMPLETED =
 +            "android:boot_completed";
      /**
@@ -26,7 +26,7 @@
              OP_MANAGE_IPSEC_TUNNELS,            // MANAGE_IPSEC_HANDOVERS
              OP_START_FOREGROUND,                // START_FOREGROUND
              OP_COARSE_LOCATION,                 // BLUETOOTH_SCAN
-+                       OP_BOOT_COMPLETED,                  // BOOT_COMPLETED
++            OP_BOOT_COMPLETED,                  // BOOT_COMPLETED
      };
 
      /**
@@ -34,7 +34,7 @@
              OPSTR_MANAGE_IPSEC_TUNNELS,
              OPSTR_START_FOREGROUND,
              OPSTR_BLUETOOTH_SCAN,
-+                       OPSTR_BOOT_COMPLETED,
++            OPSTR_BOOT_COMPLETED,
      };
 
      /**
