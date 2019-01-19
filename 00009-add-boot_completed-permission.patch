@@ -42,7 +42,7 @@
              "MANAGE_IPSEC_TUNNELS",
              "START_FOREGROUND",
              "BLUETOOTH_SCAN",
-+                       "BOOT_COMPLETED",
++            "BOOT_COMPLETED",
      };
 
      /**
@@ -60,7 +60,7 @@
              null, // MANAGE_IPSEC_TUNNELS
              null, // START_FOREGROUND
              null, // maybe should be UserManager.DISALLOW_SHARE_LOCATION, //BLUETOOTH_SCAN
-+                       null, //BOOT_COMPLETED
++            null, //BOOT_COMPLETED
      };
 
      /**
@@ -68,7 +68,7 @@
              false, // MANAGE_IPSEC_HANDOVERS
              false, // START_FOREGROUND
              true, // BLUETOOTH_SCAN
-+                       false, // BOOT_COMPLETED
++            false, // BOOT_COMPLETED
      };
 
      /**
@@ -76,7 +76,7 @@
              AppOpsManager.MODE_ERRORED,  // MANAGE_IPSEC_TUNNELS
              AppOpsManager.MODE_ALLOWED,  // OP_START_FOREGROUND
              AppOpsManager.MODE_ALLOWED,  // OP_BLUETOOTH_SCAN
-+                       AppOpsManager.MODE_ALLOWED, // OP_BOOT_COMPLETED
++            AppOpsManager.MODE_ALLOWED, // OP_BOOT_COMPLETED
      };
 
      /**
@@ -84,7 +84,7 @@
              false, // MANAGE_IPSEC_TUNNELS
              false, // START_FOREGROUND
              false, // BLUETOOTH_SCAN
-+                       false, // OP_BOOT_COMPLETED
++            false, // OP_BOOT_COMPLETED
      };
 
      /**
