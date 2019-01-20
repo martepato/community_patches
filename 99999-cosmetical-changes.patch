@@ -1,0 +1,11 @@
+--- a/frameworks/base/packages/SystemUI/res/drawable/ic_sysbar_home.xml
++++ b/frameworks/base/packages/SystemUI/res/drawable/ic_sysbar_home.xml
+@@ -21,6 +21,6 @@
+     <solid android:color="?attr/singleToneColor" />
+
+     <size
+-        android:height="14dp"
+-        android:width="14dp" />
++        android:height="28dp"
++        android:width="28dp" />
+ </shape>
