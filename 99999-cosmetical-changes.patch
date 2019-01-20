@@ -7,8 +7,8 @@ Make homebutton proper sized
      <size
 -        android:height="14dp"
 -        android:width="14dp" />
-+        android:height="18dp"
-+        android:width="18dp" />
++        android:height="16dp"
++        android:width="16dp" />
  </shape>
 
 Make them corners round
