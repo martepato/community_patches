@@ -16,8 +16,8 @@
 \ No newline at end of file
 +    android:width="24dp"
 +    android:height="24dp"
-+    android:viewportWidth="24"
-+    android:viewportHeight="24">
++    android:viewportWidth="88"
++    android:viewportHeight="88">
 +
 +    <path android:fillAlpha="0.9" android:fillColor="#e6e6e6"
 +        android:pathData="M67.54,7.69C71.19,5.46 76.24,8.73 75.97,12.92C76.08,32.62 75.96,52.33 76.03,72.04C76.03,73.93 76.06,75.86 75.58,77.71C74.2,79.79 71.85,81.51 69.22,80.89C66.81,80.2 64.76,78.68 62.59,77.47C47.2,68.53 31.82,59.56 16.39,50.66C15.01,49.87 13.79,48.84 12.68,47.7C11.4,44.75 12.02,40.79 15.03,39.14C32.52,28.64 50,18.11 67.54,7.69M21.73,44.53C22.66,45.04 23.58,45.56 24.5,46.08C38.98,54.52 53.5,62.91 67.98,71.36C68,54.15 67.98,36.95 67.99,19.74C67.99,18.98 68,17.46 68,16.7C52.59,25.99 37.07,35.11 21.73,44.53Z" android:strokeAlpha="0.9"/>
@@ -48,8 +48,8 @@
 +<vector xmlns:android="http://schemas.android.com/apk/res/android"
 +    android:width="24dp"
 +    android:height="24dp"
-+    android:viewportWidth="24"
-+    android:viewportHeight="24">
++    android:viewportWidth="88"
++    android:viewportHeight="88">
 +
 +    <path android:fillAlpha="0.9" android:fillColor="#e6e6e6"
 +        android:pathData="M31.11,9.33C39.06,6.34 48.05,6.24 56.08,9.03C66.38,12.57 74.91,20.9 78.68,31.12C81.85,39.55 81.75,49.13 78.48,57.51C74.72,66.89 67.07,74.68 57.64,78.37C49.01,81.85 39.03,81.87 30.39,78.38C20.96,74.71 13.34,66.92 9.54,57.58C6.79,50.41 6.2,42.4 8.15,34.95C10.97,23.33 19.91,13.46 31.11,9.33M16.38,37.33C14.48,44.4 15.78,52.21 19.47,58.5C25.92,69.78 40.54,75.34 52.84,71.09C66.58,66.91 75.48,51.25 71.62,37.34C68.98,24.8 56.75,15.27 43.98,15.52C31.22,15.3 19.03,24.82 16.38,37.33Z" android:strokeAlpha="0.9"/>
@@ -73,8 +73,8 @@
 -    android:viewportHeight="28">
 +    android:width="24dp"
 +    android:height="24dp"
-+    android:viewportWidth="24"
-+    android:viewportHeight="24">
++    android:viewportWidth="88"
++    android:viewportHeight="88">
 
 -    <path
 -        android:fillColor="?attr/singleToneColor"
