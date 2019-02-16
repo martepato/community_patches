@@ -2,3 +2,10 @@
 00002-global-sensors-permission-toggle.patch
 00003-disable-menu-entries-in-recovery.patch
 00004-increase-default-maximum-password-length.patch
+00005-allow-unifiednlp-location-provider.patch
+00006-enable-powersaving-features.patch
+00007-use-cloudflare-dns.patch
+00008-disable-supl-agps.patch
+00009-add-boot_completed-permission.patch
+00010-microg-sigspoof.patch
+99999-cosmetical-changes.patch
