@@ -61,8 +61,8 @@
 
 
 
---- a/frameworks/base/packages/SystemUI/drawable/ic_sysbar_recent.xml
-+++ b/frameworks/base/packages/SystemUI/drawable/ic_sysbar_recent.xml
+--- a/frameworks/base/packages/SystemUI/res/drawable/ic_sysbar_recent.xml
++++ b/frameworks/base/packages/SystemUI/res/drawable/ic_sysbar_recent.xml
 @@ -15,12 +15,15 @@
       limitations under the License.
  -->
