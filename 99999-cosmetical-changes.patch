@@ -61,8 +61,8 @@
 
 
 
---- a/frameworks/base/packages/SystemUI/res/drawable/ic_sysbar_recent.xml
-+++ b/frameworks/base/packages/SystemUI/res/drawable/ic_sysbar_recent.xml
+--- a/frameworks/base/packages/SystemUI/res/values/colors.xml
++++ b/frameworks/base/packages/SystemUI/res/values/colors.xml
 @@ -15,12 +15,15 @@
       limitations under the License.
  -->
@@ -87,3 +87,15 @@
 +        android:pathData="M12.14,74.79C13.77,76.16 15.74,77.16 17.93,76.99C35.3,77.01 52.67,77.01 70.03,76.99C72.25,77.16 74.25,76.16 75.89,74.75C75.7,76.6 75.29,79.47 72.95,79.63C64.99,80.63 56.94,79.86 48.94,79.88C40.3,80.27 31.65,79.86 23.01,80.1C19.95,80.09 16.73,80.33 13.81,79.25C12.54,78.11 12.24,76.4 12.14,74.79Z" android:strokeAlpha="0.18"/>
  </vector>
 \ No newline at end of file
+
+--- colors.xml  2019-02-16 19:18:04.000000000 +0100
++++ colors.xml_patch    2019-02-16 19:24:32.907880400 +0100
+@@ -102,7 +102,7 @@
+     <color name="keyguard_user_switcher_background_gradient_color">#77000000</color>
+
+     <!-- The color of the navigation bar icons. Need to be in sync with ic_sysbar_* -->
+-    <color name="navigation_bar_icon_color">#E5FFFFFF</color>
++    <color name="navigation_bar_icon_color">#FFFFFFFF</color>
+
+     <!-- The shadow color for light navigation bar icons. -->
+     <color name="nav_key_button_shadow_color">#30000000</color>
