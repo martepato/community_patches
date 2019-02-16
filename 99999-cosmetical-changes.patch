@@ -61,8 +61,8 @@
 
 
 
---- a/frameworks/base/packages/SystemUI/res/values/colors.xml
-+++ b/frameworks/base/packages/SystemUI/res/values/colors.xml
+--- a/frameworks/base/packages/SystemUI/drawable/ic_sysbar_recent.xml
++++ b/frameworks/base/packages/SystemUI/drawable/ic_sysbar_recent.xml
 @@ -15,12 +15,15 @@
       limitations under the License.
  -->
@@ -88,8 +88,8 @@
  </vector>
 \ No newline at end of file
 
---- colors.xml  2019-02-16 19:18:04.000000000 +0100
-+++ colors.xml_patch    2019-02-16 19:24:32.907880400 +0100
+--- a/frameworks/base/packages/SystemUI/res/values/colors.xml
++++ b/frameworks/base/packages/SystemUI/res/values/colors.xml
 @@ -102,7 +102,7 @@
      <color name="keyguard_user_switcher_background_gradient_color">#77000000</color>
 
