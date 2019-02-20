@@ -1,3 +1,5 @@
+diff --git a/frameworks/base/core/res/res/values/config.xml b/frameworks/base/core/res/res/values/config.xml
+index 0b5dd7e7..076a34ed 100644
 --- a/frameworks/base/core/res/res/values/config.xml
 +++ b/frameworks/base/core/res/res/values/config.xml
 @@ -2660,18 +2660,18 @@
