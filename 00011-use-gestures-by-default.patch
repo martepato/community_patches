@@ -1,7 +1,7 @@
 diff --git a/frameworks/base/core/res/res/values/config.xml b/frameworks/base/core/res/res/values/config.xml
 index d1c781c..e8aa8f4 100755
---- a/framework_config.xml_default_10
-+++ b/use_gestures_by_default.xml
+--- a/frameworks/base/core/res/res/values/config.xml
++++ b/frameworks/base/core/res/res/values/config.xml
 @@ -3362,7 +3362,7 @@
           0: 3 button mode (back, home, overview buttons)
           1: 2 button mode (back, home buttons + swipe up for overview)
