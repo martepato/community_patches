@@ -1,34 +1,50 @@
 diff --git a/frameworks/base/core/res/AndroidManifest.xml b/frameworks/base/core/res/AndroidManifest.xml
-index d26f890..84eb572 100755
+index 64dcfa7..ec4a194 100755
 --- a/frameworks/base/core/res/AndroidManifest.xml
 +++ b/frameworks/base/core/res/AndroidManifest.xml
-@@ -2715,6 +2715,13 @@
+@@ -2715,6 +2715,21 @@
          android:label="@string/permlab_getPackageSize"
          android:description="@string/permdesc_getPackageSize"
          android:protectionLevel="normal" />
 +
-+       <!-- @hide Allows an application to change the package signature as
-+         seen by applications -->
++    <!-- @hide -->
++    <permission-group android:name="android.permission-group.FAKE_PACKAGE"
++        android:label="@string/permgrouplab_fake_package_signature"
++        android:description="@string/permgroupdesc_fake_package_signature"
++        android:request="@string/permgrouprequest_fake_package_signature"
++        android:priority="100" />
++
++    <!-- @hide Allows an application to change the package signature as
++        seen by applications -->
 +    <permission android:name="android.permission.FAKE_PACKAGE_SIGNATURE"
-+        android:protectionLevel="signature|privileged"
++        android:permissionGroup="android.permission-group.UNDEFINED"
++        android:protectionLevel="dangerous"
 +        android:label="@string/permlab_fakePackageSignature"
 +        android:description="@string/permdesc_fakePackageSignature" />
 
      <!-- @deprecated No longer useful, see
           {@link android.content.pm.PackageManager#addPackageToPreferred}
 diff --git a/frameworks/base/core/res/res/values/strings.xml b/frameworks/base/core/res/res/values/strings.xml
-index 9bc0d96..f5efed3 100755
+index 9bc0d96..42e3c2e 100755
 --- a/frameworks/base/core/res/res/values/strings.xml
 +++ b/frameworks/base/core/res/res/values/strings.xml
-@@ -829,6 +829,11 @@
+@@ -829,6 +829,19 @@
          the device\'s fingerprint sensor.</string>
 
      <!--  Permissions -->
 +
-+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
++       <!-- MicroG -->
 +    <string name="permlab_fakePackageSignature">Spoof package signature</string>
-+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
++    <!-- Description of an application permission, listed so the user can choose whether
++         they want to allow the application to do this. -->
 +    <string name="permdesc_fakePackageSignature">Allows the app to pretend to be a different app. Malicious applications might be able to use this to access private application data. Legitimate uses include an emulator pretending to be what it emulates. Grant this permission with caution only!</string>
++    <!-- Title of a category of application permissions, listed so the user can choose whether they want to allow the application to do this. -->
++    <string name="permgrouplab_fake_package_signature">Spoof package signature</string>
++    <!-- Description of a category of application permissions, listed so the user can choose whether they want to allow the application to do this. -->
++    <string name="permgroupdesc_fake_package_signature">allow to spoof package signature</string>
++    <!-- Message shown to the user when the apps requests permission from this group. If ever possible this should stay below 80 characters (assuming the parameters takes 20 characters). Don't abbreviate until the message reaches 120 characters though. [CHAR LIMIT=120] -->
++    <string name="permgrouprequest_fake_package_signature">Allow
++        &lt;b><xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b> to spoof package signature?</string>
 
      <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
      <string name="permlab_statusBar">disable or modify status bar</string>
