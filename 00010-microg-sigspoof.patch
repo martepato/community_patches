@@ -89,3 +89,16 @@ index d8f5dfb..81e71eb 100755
      @Override
      public void checkPackageStartable(String packageName, int userId) {
          final int callingUid = Binder.getCallingUid();
+diff --git a/frameworks/base/core/res/res/values/config.xml b/frameworks/base/core/res/res/values/config.xml
+index 0541955..9d57a12 100755
+--- a/frameworks/base/core/res/res/values/config.xml
++++ b/frameworks/base/core/res/res/values/config.xml
+@@ -1896,6 +1896,8 @@
+     <string-array name="config_locationProviderPackageNames" translatable="false">
+         <!-- The standard AOSP fused location provider -->
+         <item>com.android.location.fused</item>
++        <!-- The (faked) microg fused location provider (a free reimplementation) -->
++        <item>com.google.android.gms</item>
+     </string-array>
+
+     <!-- This string array can be overriden to enable test location providers initially. -->
